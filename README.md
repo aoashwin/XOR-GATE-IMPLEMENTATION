@@ -23,6 +23,8 @@ The information of a neural network is stored in the interconnections between th
 
 
 
+
+
 ```
 
 ## Program:
@@ -54,7 +56,12 @@ scores = model.evaluate(training_data, target_data)
 print("\n%s: %.2f%%" %(model.metrics_names[1], scores[1]*100))
 print(model.predict(training_data).round())
 ```
+```
 
+
+
+
+```
 ## Output:
 
 ![s](https://user-images.githubusercontent.com/75236145/169481590-48f16c51-a4e0-4118-ad67-46d11e9e9368.png)
