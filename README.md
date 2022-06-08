@@ -66,6 +66,9 @@ print(model.predict(training_data).round())
 
 
 
+
+
+
 ```
 ## Output:
 
